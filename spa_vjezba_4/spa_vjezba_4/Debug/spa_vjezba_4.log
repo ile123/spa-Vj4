@@ -1,0 +1,11 @@
+﻿  sortiranja.c
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,18): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,14): warning C4024: 'merge': different types for formal and actual parameter 2
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,24): warning C4047: 'function': 'int' differs in levels of indirection from 'int *'
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,20): warning C4024: 'merge': different types for formal and actual parameter 3
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,34): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,28): warning C4024: 'merge': different types for formal and actual parameter 4
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,39): warning C4047: 'function': 'int' differs in levels of indirection from 'int *'
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(229,36): warning C4024: 'merge': different types for formal and actual parameter 5
+C:\Users\Ilario\source\repos\spa_vjezba_4\spa_vjezba_4\sortiranja.c(59): warning C4715: 'median': not all control paths return a value
+  spa_vjezba_4.vcxproj -> C:\Users\Ilario\source\repos\spa_vjezba_4\Debug\spa_vjezba_4.exe
