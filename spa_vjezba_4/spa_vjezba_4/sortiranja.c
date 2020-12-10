@@ -23,19 +23,22 @@ void zamjena(int* niz, int livo, int desno) {
 //nova metoda
 int median(int* niz, int n)
 {
+	int median, temp;
 	if ((niz[0] >= niz[n / 2] && niz[0] <= niz[n - 1]) || (niz[0] <= niz[n / 2] && niz[0] >= niz[n - 1]))
 	{
-
+	    median = 0;
 	}
 	else if ((niz[n / 2] >= niz[0] && niz[n / 2] <= niz[n - 1]) || (niz[n / 2] <= niz[0] && niz[n / 2] >= niz[n - 1]))
 	{
-
+		median = n - 1;
 	}
 	else
 	{
-
+		median = n / 2;
 	}
+	return median;
 }
+
 void shuffle(int* niz, int n) {
 	for (int i = 0; i < n; i++) {
 		int k1 = rand() % n;
@@ -187,7 +190,7 @@ void merge(int* niz, int* niza, int na, int* nizb, int nb)
 	}
 }
 
-// alocira i vraæa kopiju niza
+// alocira i vraÃ¦a kopiju niza
 int* duplicate(int* niz, int n) {
 	int i;
 	int* novi = (int*)malloc(sizeof(int) * n);
@@ -211,7 +214,7 @@ void mergesort(int* niz, int n) {
 
 }
 
-// mjerenje vremena izvoðenja funkcije sortiranja
+// mjerenje vremena izvoÃ°enja funkcije sortiranja
 double measure(void(*sort)(int* niz, int n), int* niz, int n) {
 	int start_time = clock();
 	sort(niz, n);
